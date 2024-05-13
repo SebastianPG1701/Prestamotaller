@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include "funciones.h"
+
 float capitalPorA(float montoOriginal, int numAnios) {
     float capitalPorA= montoOriginal / numAnios;
     return capitalPorA;
@@ -33,7 +36,6 @@ void prestamo(float numAnios,float montoOriginal,float capital){
 
         montoOriginal -= capital;
 
-        //float MontoTotal=MontoImp(MontoTotal,interes);
-        //printf("El monto total a pagar en los 5 años es: %.2f",MontoTotal,interes );
+        
     }
 }

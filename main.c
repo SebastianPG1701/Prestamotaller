@@ -10,6 +10,7 @@ int main() {
 
     printf("Ingrese el numero de anios: ");
     scanf("%d", &numAnios);
+     prestamo(numAnios, montoOriginal, capitalPorA(montoOriginal, numAnios));
 
     float capital = capitalPorA(montoOriginal, numAnios);
 
